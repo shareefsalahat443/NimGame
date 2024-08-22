@@ -1,0 +1,268 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+label {
+  display: block;
+  margin: 10px 0;
+}
+
+input, select, button {
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.heap-config {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.heap-button {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 50%;
+  background-color: #f0ad4e;
+  color: white;
+  margin: 5px;
+  font-size: 1.2em;
+}
+
+.heap-button:focus,
+.heap-button:active {
+  outline: none;
+  box-shadow: 0 0 2px 2px #f0ad4e;
+}
+
+.game-settings {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.settings-section {
+  margin-bottom: 20px;
+}
+
+.start-button {
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.heap {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heap-select-button {
+  margin-top: 15px;
+  padding: 5px 10px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+h1 {
+  color: #4a90e2;
+  font-size: 2.5em; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2em;
+  }
+}
+
+.game-area {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  padding: 20px;
+}
+
+.game-board {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.heap {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+
+
+.object {
+  width: 50px;
+  height: 50px;
+  background-color: #4caf50;
+  border: 2px solid #388e3c;
+  border-radius: 10px;
+  box-shadow: 0 4px #2e7d32;
+}
+
+.object.selected {
+  border: 2px solid #ff9800;
+  box-shadow: 0 0 8px #ff9800;
+}
+
+
+.game-over {
+  margin-top: 20px;
+  font-size: 1.5em;
+  color: red;
+}
+
+.reset-button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #d9534f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.reset-button:hover {
+  background-color: #c9302c;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.object {
+  transition: transform 0.2s;
+}
+
+.object:hover {
+  background-color: #d30000;
+}
+
+.object:active {
+  transform: scale(0.9);
+}
+
+.restart-button, .ai-first-button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.restart-button {
+  background-color: #0275d8;
+}
+
+.restart-button:hover {
+  background-color: #025aa5;
+}
+
+.ai-first-button {
+  background-color: #0ba2d0;
+}
+
+.ai-first-button:hover {
+  background-color: #31b0d5;
+}
+
+.ai-first-button:disabled {
+  background-color: #b0e0e6;
+  color: #fff;
+  cursor: not-allowed;
+}
+
+.game-result {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f2f2f2;
+  border-radius: 8px;
+  border: 1px solid #dcdcdc;
+  text-align: center;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.game-header {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.mode-selection {
+  margin: 20px 0;
+}
+
+.mode-selection label {
+  margin-right: 10px;
+}
+
+.mode-selection select {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.rules {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.rules h2 {
+  margin: 0 0 10px 0;
+}
+
+.rules ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.turn-info {
+  margin: 10px;
+  font-size: 16px;
+  
+}
